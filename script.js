@@ -45,6 +45,16 @@ function Aufgabe_d() {
   for (let i = 0; i < 5000; 1++) {
     print(numbers[i])
   }
+  //Wenn die Numer durch 7 teilbar ist, soll sie zu einer Liste gemacht werden
+  //und dann durch ein "#" ersetzt werden. Nachdem wird es wieder als Zeichenkette
+  //angegeben und zum Schluss werden alle Zahlen, die durch "#" ersetzt wurden
+  //zusammengerechnet und dann ausgegeben.
+  if(i = numbers/7) {
+let numbersList = numbers.split("")
+numbersList = ("#")
+numbers = numbersList.join("")
+print(Sum.numbersList)
+  }
 }
 
 
