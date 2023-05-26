@@ -19,7 +19,7 @@ exercise("Beispiel", function() {
 
 exercise("Aufgabe 2", function() {
   // Aufgabe 2 (b)
-  // 
+  // Das was man bei der Eingabe eingibt, soll gelesen werden und dann von einer Zeichenkette zu einer Liste transformiert werden. Für das benutzt man das "Split".
   let input = read().split("")
 
   // Aufgabe 2 (c)
