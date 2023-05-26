@@ -38,6 +38,6 @@ exercise("Aufgabe 2", function() {
   }
 
   // Aufgabe 2 (f)
-  // 
+  // Nun formiert man wieder die Liste mit der Funktion "join" zu einer Zeichenkette. Ausserdem wird diese dann so ausgegeben.
   print(res.join(""))
 })
