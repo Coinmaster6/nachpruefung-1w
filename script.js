@@ -33,7 +33,7 @@ exercise("Aufgabe 2", function() {
   for (let i = 0; i < input.length; i++) {
 
     // Aufgabe 2 (e)
-    // 
+    // Das was man als i bekommen hat soll nun beim UpperCase angehängt werden.  
     res.push(input[i].toUpperCase())
   }
 
