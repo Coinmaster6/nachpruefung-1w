@@ -23,7 +23,7 @@ exercise("Aufgabe 2", function() {
   let input = read().split("")
 
   // Aufgabe 2 (c)
-  // 
+  // Das ist eine neue, leere Liste. Hier werden die neue Zeichen angehängt.
   let res = []
 
   // Aufgabe 2 (d)
