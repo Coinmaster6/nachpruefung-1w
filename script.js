@@ -38,8 +38,14 @@ function Aufgabe_c() {
   }
 
 }
+//Soll alle Zaheln von 1-5000 ausgeben.
+function Aufgabe_d() {
+  numbers = [1,2,3,4,5,6,7,8,9,10]
 
-
+  for (let i = 0; i < 5000; 1++) {
+    print(numbers[i])
+  }
+}
 
 
 
