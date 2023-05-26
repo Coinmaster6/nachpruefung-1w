@@ -14,6 +14,18 @@ exercise("Beispiel", function() {
 })
 
 
+//Wenn die EIngabe ein Leerzeichen hat, soll es das Leerzeichen löschen,
+// wenn es keins hat, dann soll es diesen Text ausgeben.
+function Aufgabe_03() {
+  let input = read()
+  if (input = "") {
+    delete "";
+    print(input) 
+  } else {
+    print("Es gibt keine Leerzeichen")
+  }
+}
+
 
 
 
