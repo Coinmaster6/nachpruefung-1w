@@ -26,6 +26,18 @@ function Aufgabe_03() {
   }
 }
 
+function Aufgabe_04() {
+  let num = parseInt(read())
+
+  if (num < 50) {
+    print("kleiner")
+  } else if (num > 50) {
+    print("grösser")
+  } else {
+    print("richtig")
+  }
+
+}
 
 
 
