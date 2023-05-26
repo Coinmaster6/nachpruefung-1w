@@ -27,7 +27,9 @@ exercise("Aufgabe 2", function() {
   let res = []
 
   // Aufgabe 2 (d)
-  // 
+  // Das ist nun eine Schleife. Der erste Teil ist die Initialisierung, sie zeigt mit welcher Variable man arbeitet und wo diese beginnt. 
+  //Der zweite Teil ist die Abbruchbedingung. Sie zeigt, dass diese Schleife so lange weitergeht, bis diese Bedingung erreicht wurde.
+  //Der letzte Teil ist der Nachdurchlauf. Er zeigt, wie man mit der Variable arbeitet und was nach jedem Durchlauf mit ihr passiert.
   for (let i = 0; i < input.length; i++) {
 
     // Aufgabe 2 (e)
