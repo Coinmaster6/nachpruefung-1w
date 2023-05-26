@@ -14,6 +14,48 @@ exercise("Beispiel", function() {
 })
 
 
+//Wenn die EIngabe ein Leerzeichen hat, soll es das Leerzeichen löschen,
+// wenn es keins hat, dann soll es diesen Text ausgeben.
+function Aufgabe_b() {
+  let input = read()
+  if (input = "") {
+    delete "";
+    print(input) 
+  } else {
+    print("Es gibt keine Leerzeichen")
+  }
+}
+
+function Aufgabe_c() {
+  let num = parseInt(read())
+
+  if (num < 50) {
+    print("kleiner")
+  } else if (num > 50) {
+    print("grösser")
+  } else {
+    print("richtig")
+  }
+
+}
+//Soll alle Zaheln von 1-5000 ausgeben.
+function Aufgabe_d() {
+  numbers = [1,2,3,4,5,6,7,8,9,10]
+
+  for (let i = 0; i < 5000; 1++) {
+    print(numbers[i])
+  }
+  //Wenn die Numer durch 7 teilbar ist, soll sie zu einer Liste gemacht werden
+  //und dann durch ein "#" ersetzt werden. Nachdem wird es wieder als Zeichenkette
+  //angegeben und zum Schluss werden alle Zahlen, die durch "#" ersetzt wurden
+  //zusammengerechnet und dann ausgegeben.
+  if(i = numbers/7) {
+let numbersList = numbers.split("")
+numbersList = ("#")
+numbers = numbersList.join("")
+print(Sum.numbersList)
+  }
+}
 
 
 
